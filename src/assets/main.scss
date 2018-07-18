@@ -1,0 +1,38 @@
+$primary:     #ff6f5b !default;
+$secondary:   #054173 !default;
+$success:     #9bd63c !default;
+$info:        #7ABFD7 !default;
+$warning:     #f0ad4e !default;
+$danger:      #f1463c !default;
+
+html {
+  // /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/$secondary+0,3622b7+100 */
+  // background: $secondary; /* Old browsers */
+  // background: -moz-linear-gradient(-45deg, $secondary 0%, $info 100%); /* FF3.6-15 */
+  // background: -webkit-linear-gradient(-45deg, $secondary 0%,$info 100%); /* Chrome10-25,Safari5.1-6 */
+  // background: linear-gradient(135deg, $secondary 0%,$info 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$secondary', endColorstr='$info',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  // // background: black;
+}
+
+body {
+  background: transparent;
+}
+
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // text-align: center;
+  color: #2c3e50;
+  // margin-top: 60px;
+
+}
+
+#tv {
+  font-size: 2vw;
+
+  tr.bg-secondary {
+    background-color: $secondary !important;
+  }
+}
